@@ -18,6 +18,14 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>温馨提示：请允许使用麦克风！^_^</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>温馨提示：请允许访问相册，才可以保存图片哦！^_^</string>
+	<key>NSCameraUsageDescription</key>
+	<string>温馨提示：请允许访问相机！^_^</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>温馨提示：需要您的同意,才能保存图片到您的相册^_^</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

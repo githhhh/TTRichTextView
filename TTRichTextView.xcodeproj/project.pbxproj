@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21C4B4CBBD75C221F7E0FE6D /* libPods-TTRichTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8044B34563F0068ACD69AEC2 /* libPods-TTRichTextView.a */; };
 		8BC0F7EF22F0052800C6479C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F7EE22F0052800C6479C /* AppDelegate.m */; };
 		8BC0F7F222F0052800C6479C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F7F122F0052800C6479C /* ViewController.m */; };
 		8BC0F7F522F0052800C6479C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0F7F322F0052800C6479C /* Main.storyboard */; };
@@ -14,6 +15,43 @@
 		8BC0F7FA22F0052C00C6479C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0F7F822F0052C00C6479C /* LaunchScreen.storyboard */; };
 		8BC0F7FD22F0052C00C6479C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F7FC22F0052C00C6479C /* main.m */; };
 		8BC0F80722F0052C00C6479C /* TTRichTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F80622F0052C00C6479C /* TTRichTextViewTests.m */; };
+		8BC0F81D22F00D1300C6479C /* AttachmentLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F81422F00D1300C6479C /* AttachmentLayoutManager.m */; };
+		8BC0F81E22F00D1300C6479C /* TextAttachmentsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F81622F00D1300C6479C /* TextAttachmentsManager.m */; };
+		8BC0F81F22F00D1300C6479C /* TextAttachmentReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F81822F00D1300C6479C /* TextAttachmentReusableView.m */; };
+		8BC0F82022F00D1300C6479C /* AttachmentGestureRecognizerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F81922F00D1300C6479C /* AttachmentGestureRecognizerDelegate.m */; };
+		8BC0F82622F00D2600C6479C /* MediaCompressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F82222F00D2600C6479C /* MediaCompressTool.m */; };
+		8BC0F82722F00D2600C6479C /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F82522F00D2600C6479C /* UIImage+Utils.m */; };
+		8BC0F83422F00D3A00C6479C /* NSTextStorage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F82F22F00D3900C6479C /* NSTextStorage+Utils.m */; };
+		8BC0F83522F00D3A00C6479C /* NSLayoutManager+Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F83022F00D3900C6479C /* NSLayoutManager+Attachment.m */; };
+		8BC0F83622F00D3A00C6479C /* NSTextStorage+ProcessEditing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F83122F00D3900C6479C /* NSTextStorage+ProcessEditing.m */; };
+		8BC0F83722F00D3A00C6479C /* NSTextStorage+Html.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F83222F00D3A00C6479C /* NSTextStorage+Html.m */; };
+		8BC0F83F22F00D5500C6479C /* UITextView+TextAttachmentUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F83A22F00D5500C6479C /* UITextView+TextAttachmentUtils.m */; };
+		8BC0F84022F00D5500C6479C /* UITextView+Binding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F83D22F00D5500C6479C /* UITextView+Binding.m */; };
+		8BC0F84122F00D5500C6479C /* UITextView+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F83E22F00D5500C6479C /* UITextView+RichText.m */; };
+		8BC0F84C22F00D6B00C6479C /* ImageTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F84422F00D6A00C6479C /* ImageTextAttachment.m */; };
+		8BC0F84D22F00D6B00C6479C /* VideoTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F84822F00D6B00C6479C /* VideoTextAttachment.m */; };
+		8BC0F84E22F00D6B00C6479C /* AnyViewTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F84922F00D6B00C6479C /* AnyViewTextAttachment.m */; };
+		8BC0F84F22F00D6B00C6479C /* MediaTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F84A22F00D6B00C6479C /* MediaTextAttachment.m */; };
+		8BC0F85B22F00D7E00C6479C /* DraftManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F85122F00D7D00C6479C /* DraftManager.m */; };
+		8BC0F85C22F00D7E00C6479C /* DraftManager+Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F85222F00D7D00C6479C /* DraftManager+Attachment.m */; };
+		8BC0F85D22F00D7E00C6479C /* RichTextView+Draft.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F85322F00D7D00C6479C /* RichTextView+Draft.m */; };
+		8BC0F85E22F00D7E00C6479C /* DraftMetaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F85522F00D7E00C6479C /* DraftMetaDataModel.m */; };
+		8BC0F85F22F00D7E00C6479C /* NSTextStorage+Draft.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F85922F00D7E00C6479C /* NSTextStorage+Draft.m */; };
+		8BC0F86422F00D9B00C6479C /* RichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F86222F00D9A00C6479C /* RichTextView.m */; };
+		8BC0F86522F00D9B00C6479C /* RichTextView+TextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F86322F00D9A00C6479C /* RichTextView+TextAttachment.m */; };
+		8BC0F86822F00DB800C6479C /* XFRichTextTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0F86722F00DB800C6479C /* XFRichTextTool.bundle */; };
+		8BC0F86E22F00EAA00C6479C /* UIViewController+XF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F86B22F00EA900C6479C /* UIViewController+XF.m */; };
+		8BC0F86F22F00EAA00C6479C /* UIViewController+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F86D22F00EAA00C6479C /* UIViewController+Base.m */; };
+		8BC0F87822F0108300C6479C /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F87622F0108300C6479C /* NSObject+Swizzle.m */; };
+		8BC0F89922F0168800C6479C /* GifTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F89722F0168700C6479C /* GifTextAttachment.m */; };
+		8BC0F89C22F016C400C6479C /* AudioTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F89A22F016C400C6479C /* AudioTextAttachment.m */; };
+		8BC0F8A222F01A1700C6479C /* AudioAttachmentReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F8A122F01A1700C6479C /* AudioAttachmentReusableView.m */; };
+		8BC0F8A522F01A3700C6479C /* GifAttachmentReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F8A322F01A3700C6479C /* GifAttachmentReusableView.m */; };
+		8BC0F8A922F01AC200C6479C /* RichTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F8A822F01AC200C6479C /* RichTextViewController.m */; };
+		8BC0F8AC22F01AD600C6479C /* DraftListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F8AB22F01AD600C6479C /* DraftListViewController.m */; };
+		8BC0F8AF22F01D1A00C6479C /* RichTextInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F8AD22F01D1900C6479C /* RichTextInputAccessoryView.m */; };
+		8BC0F8B522F020FD00C6479C /* PostRichEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F8B422F020FD00C6479C /* PostRichEditViewController.m */; };
+		8BC0F8BF22F02C8500C6479C /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0F8BE22F02C8500C6479C /* niconiconi@2x.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +65,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37F15347596DA2D34D84ED8B /* Pods-TTRichTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTRichTextView.debug.xcconfig"; path = "Target Support Files/Pods-TTRichTextView/Pods-TTRichTextView.debug.xcconfig"; sourceTree = "<group>"; };
+		8044B34563F0068ACD69AEC2 /* libPods-TTRichTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTRichTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860784015193DA32BBAAF1FA /* Pods-TTRichTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTRichTextView.release.xcconfig"; path = "Target Support Files/Pods-TTRichTextView/Pods-TTRichTextView.release.xcconfig"; sourceTree = "<group>"; };
 		8BC0F7EA22F0052800C6479C /* TTRichTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTRichTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC0F7ED22F0052800C6479C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BC0F7EE22F0052800C6479C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +81,82 @@
 		8BC0F80222F0052C00C6479C /* TTRichTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTRichTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC0F80622F0052C00C6479C /* TTRichTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTRichTextViewTests.m; sourceTree = "<group>"; };
 		8BC0F80822F0052C00C6479C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC0F81222F00CDB00C6479C /* RichTextTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextTools.h; sourceTree = "<group>"; };
+		8BC0F81422F00D1300C6479C /* AttachmentLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentLayoutManager.m; sourceTree = "<group>"; };
+		8BC0F81522F00D1300C6479C /* TextAttachmentsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAttachmentsManager.h; sourceTree = "<group>"; };
+		8BC0F81622F00D1300C6479C /* TextAttachmentsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAttachmentsManager.m; sourceTree = "<group>"; };
+		8BC0F81722F00D1300C6479C /* TextViewAttachmentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewAttachmentDelegate.h; sourceTree = "<group>"; };
+		8BC0F81822F00D1300C6479C /* TextAttachmentReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAttachmentReusableView.m; sourceTree = "<group>"; };
+		8BC0F81922F00D1300C6479C /* AttachmentGestureRecognizerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentGestureRecognizerDelegate.m; sourceTree = "<group>"; };
+		8BC0F81A22F00D1300C6479C /* AttachmentLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentLayoutManager.h; sourceTree = "<group>"; };
+		8BC0F81B22F00D1300C6479C /* TextAttachmentReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAttachmentReusableView.h; sourceTree = "<group>"; };
+		8BC0F81C22F00D1300C6479C /* AttachmentGestureRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentGestureRecognizerDelegate.h; sourceTree = "<group>"; };
+		8BC0F82222F00D2600C6479C /* MediaCompressTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCompressTool.m; sourceTree = "<group>"; };
+		8BC0F82322F00D2600C6479C /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		8BC0F82422F00D2600C6479C /* MediaCompressTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCompressTool.h; sourceTree = "<group>"; };
+		8BC0F82522F00D2600C6479C /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		8BC0F82922F00D3900C6479C /* NSLayoutManager+Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutManager+Attachment.h"; sourceTree = "<group>"; };
+		8BC0F82A22F00D3900C6479C /* NSTextStorage+ProcessEditing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextStorage+ProcessEditing.h"; sourceTree = "<group>"; };
+		8BC0F82C22F00D3900C6479C /* NSTextStorage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextStorage+Utils.h"; sourceTree = "<group>"; };
+		8BC0F82E22F00D3900C6479C /* NSTextStorage+Html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextStorage+Html.h"; sourceTree = "<group>"; };
+		8BC0F82F22F00D3900C6479C /* NSTextStorage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextStorage+Utils.m"; sourceTree = "<group>"; };
+		8BC0F83022F00D3900C6479C /* NSLayoutManager+Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutManager+Attachment.m"; sourceTree = "<group>"; };
+		8BC0F83122F00D3900C6479C /* NSTextStorage+ProcessEditing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextStorage+ProcessEditing.m"; sourceTree = "<group>"; };
+		8BC0F83222F00D3A00C6479C /* NSTextStorage+Html.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextStorage+Html.m"; sourceTree = "<group>"; };
+		8BC0F83922F00D5500C6479C /* UITextView+TextAttachmentUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TextAttachmentUtils.h"; sourceTree = "<group>"; };
+		8BC0F83A22F00D5500C6479C /* UITextView+TextAttachmentUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TextAttachmentUtils.m"; sourceTree = "<group>"; };
+		8BC0F83B22F00D5500C6479C /* UITextView+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+RichText.h"; sourceTree = "<group>"; };
+		8BC0F83C22F00D5500C6479C /* UITextView+Binding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Binding.h"; sourceTree = "<group>"; };
+		8BC0F83D22F00D5500C6479C /* UITextView+Binding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Binding.m"; sourceTree = "<group>"; };
+		8BC0F83E22F00D5500C6479C /* UITextView+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+RichText.m"; sourceTree = "<group>"; };
+		8BC0F84322F00D6A00C6479C /* CopyTextAttachmentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyTextAttachmentProtocol.h; sourceTree = "<group>"; };
+		8BC0F84422F00D6A00C6479C /* ImageTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTextAttachment.m; sourceTree = "<group>"; };
+		8BC0F84522F00D6A00C6479C /* MediaTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTextAttachment.h; sourceTree = "<group>"; };
+		8BC0F84622F00D6A00C6479C /* AnyViewTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyViewTextAttachment.h; sourceTree = "<group>"; };
+		8BC0F84722F00D6A00C6479C /* VideoTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTextAttachment.h; sourceTree = "<group>"; };
+		8BC0F84822F00D6B00C6479C /* VideoTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTextAttachment.m; sourceTree = "<group>"; };
+		8BC0F84922F00D6B00C6479C /* AnyViewTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnyViewTextAttachment.m; sourceTree = "<group>"; };
+		8BC0F84A22F00D6B00C6479C /* MediaTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTextAttachment.m; sourceTree = "<group>"; };
+		8BC0F84B22F00D6B00C6479C /* ImageTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTextAttachment.h; sourceTree = "<group>"; };
+		8BC0F85122F00D7D00C6479C /* DraftManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraftManager.m; sourceTree = "<group>"; };
+		8BC0F85222F00D7D00C6479C /* DraftManager+Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DraftManager+Attachment.m"; sourceTree = "<group>"; };
+		8BC0F85322F00D7D00C6479C /* RichTextView+Draft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RichTextView+Draft.m"; sourceTree = "<group>"; };
+		8BC0F85422F00D7E00C6479C /* DraftManager+Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DraftManager+Attachment.h"; sourceTree = "<group>"; };
+		8BC0F85522F00D7E00C6479C /* DraftMetaDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraftMetaDataModel.m; sourceTree = "<group>"; };
+		8BC0F85622F00D7E00C6479C /* DraftMetaDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraftMetaDataModel.h; sourceTree = "<group>"; };
+		8BC0F85722F00D7E00C6479C /* NSTextStorage+Draft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextStorage+Draft.h"; sourceTree = "<group>"; };
+		8BC0F85822F00D7E00C6479C /* DraftManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraftManager.h; sourceTree = "<group>"; };
+		8BC0F85922F00D7E00C6479C /* NSTextStorage+Draft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextStorage+Draft.m"; sourceTree = "<group>"; };
+		8BC0F85A22F00D7E00C6479C /* RichTextView+Draft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RichTextView+Draft.h"; sourceTree = "<group>"; };
+		8BC0F86022F00D9A00C6479C /* RichTextView+TextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RichTextView+TextAttachment.h"; sourceTree = "<group>"; };
+		8BC0F86122F00D9A00C6479C /* RichTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextView.h; sourceTree = "<group>"; };
+		8BC0F86222F00D9A00C6479C /* RichTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextView.m; sourceTree = "<group>"; };
+		8BC0F86322F00D9A00C6479C /* RichTextView+TextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RichTextView+TextAttachment.m"; sourceTree = "<group>"; };
+		8BC0F86722F00DB800C6479C /* XFRichTextTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XFRichTextTool.bundle; sourceTree = "<group>"; };
+		8BC0F86A22F00EA900C6479C /* UIViewController+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Base.h"; sourceTree = "<group>"; };
+		8BC0F86B22F00EA900C6479C /* UIViewController+XF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XF.m"; sourceTree = "<group>"; };
+		8BC0F86C22F00EAA00C6479C /* UIViewController+XF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XF.h"; sourceTree = "<group>"; };
+		8BC0F86D22F00EAA00C6479C /* UIViewController+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Base.m"; sourceTree = "<group>"; };
+		8BC0F87622F0108300C6479C /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		8BC0F87722F0108300C6479C /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		8BC0F89722F0168700C6479C /* GifTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifTextAttachment.m; sourceTree = "<group>"; };
+		8BC0F89822F0168700C6479C /* GifTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifTextAttachment.h; sourceTree = "<group>"; };
+		8BC0F89A22F016C400C6479C /* AudioTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTextAttachment.m; sourceTree = "<group>"; };
+		8BC0F89B22F016C400C6479C /* AudioTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTextAttachment.h; sourceTree = "<group>"; };
+		8BC0F89E22F0179C00C6479C /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		8BC0F8A022F01A1700C6479C /* AudioAttachmentReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioAttachmentReusableView.h; sourceTree = "<group>"; };
+		8BC0F8A122F01A1700C6479C /* AudioAttachmentReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioAttachmentReusableView.m; sourceTree = "<group>"; };
+		8BC0F8A322F01A3700C6479C /* GifAttachmentReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifAttachmentReusableView.m; sourceTree = "<group>"; };
+		8BC0F8A422F01A3700C6479C /* GifAttachmentReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifAttachmentReusableView.h; sourceTree = "<group>"; };
+		8BC0F8A722F01AC200C6479C /* RichTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichTextViewController.h; sourceTree = "<group>"; };
+		8BC0F8A822F01AC200C6479C /* RichTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextViewController.m; sourceTree = "<group>"; };
+		8BC0F8AA22F01AD600C6479C /* DraftListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraftListViewController.h; sourceTree = "<group>"; };
+		8BC0F8AB22F01AD600C6479C /* DraftListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraftListViewController.m; sourceTree = "<group>"; };
+		8BC0F8AD22F01D1900C6479C /* RichTextInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextInputAccessoryView.m; sourceTree = "<group>"; };
+		8BC0F8AE22F01D1900C6479C /* RichTextInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextInputAccessoryView.h; sourceTree = "<group>"; };
+		8BC0F8B322F020FD00C6479C /* PostRichEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostRichEditViewController.h; sourceTree = "<group>"; };
+		8BC0F8B422F020FD00C6479C /* PostRichEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostRichEditViewController.m; sourceTree = "<group>"; };
+		8BC0F8BE22F02C8500C6479C /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C4B4CBBD75C221F7E0FE6D /* libPods-TTRichTextView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +178,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89913934A6438F096E297B70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37F15347596DA2D34D84ED8B /* Pods-TTRichTextView.debug.xcconfig */,
+				860784015193DA32BBAAF1FA /* Pods-TTRichTextView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8BC0F7E122F0052800C6479C = {
 			isa = PBXGroup;
 			children = (
+				8BC0F81122F00CA000C6479C /* Classes */,
 				8BC0F7EC22F0052800C6479C /* TTRichTextView */,
 				8BC0F80522F0052C00C6479C /* TTRichTextViewTests */,
 				8BC0F7EB22F0052800C6479C /* Products */,
+				89913934A6438F096E297B70 /* Pods */,
+				BEFFA6AAF4C66A8554CF4F1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +211,10 @@
 		8BC0F7EC22F0052800C6479C /* TTRichTextView */ = {
 			isa = PBXGroup;
 			children = (
+				8BC0F8BE22F02C8500C6479C /* niconiconi@2x.gif */,
+				8BC0F8A622F01A9B00C6479C /* Controller */,
+				8BC0F89F22F01A0D00C6479C /* View */,
+				8BC0F86922F00E8E00C6479C /* Utility */,
 				8BC0F7ED22F0052800C6479C /* AppDelegate.h */,
 				8BC0F7EE22F0052800C6479C /* AppDelegate.m */,
 				8BC0F7F022F0052800C6479C /* ViewController.h */,
@@ -103,6 +237,173 @@
 			path = TTRichTextViewTests;
 			sourceTree = "<group>";
 		};
+		8BC0F81122F00CA000C6479C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F81222F00CDB00C6479C /* RichTextTools.h */,
+				8BC0F86622F00DA000C6479C /* RichTextView */,
+				8BC0F85022F00D7400C6479C /* Draft */,
+				8BC0F84222F00D5F00C6479C /* TextAttachment */,
+				8BC0F83822F00D4800C6479C /* UITextView+ */,
+				8BC0F82822F00D2A00C6479C /* TextKit+ */,
+				8BC0F82122F00D1600C6479C /* Utils */,
+				8BC0F81322F00D0900C6479C /* TextAttachmentManager */,
+				8BC0F86722F00DB800C6479C /* XFRichTextTool.bundle */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8BC0F81322F00D0900C6479C /* TextAttachmentManager */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F81C22F00D1300C6479C /* AttachmentGestureRecognizerDelegate.h */,
+				8BC0F81922F00D1300C6479C /* AttachmentGestureRecognizerDelegate.m */,
+				8BC0F81A22F00D1300C6479C /* AttachmentLayoutManager.h */,
+				8BC0F81422F00D1300C6479C /* AttachmentLayoutManager.m */,
+				8BC0F81B22F00D1300C6479C /* TextAttachmentReusableView.h */,
+				8BC0F81822F00D1300C6479C /* TextAttachmentReusableView.m */,
+				8BC0F81522F00D1300C6479C /* TextAttachmentsManager.h */,
+				8BC0F81622F00D1300C6479C /* TextAttachmentsManager.m */,
+				8BC0F81722F00D1300C6479C /* TextViewAttachmentDelegate.h */,
+			);
+			path = TextAttachmentManager;
+			sourceTree = "<group>";
+		};
+		8BC0F82122F00D1600C6479C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F82422F00D2600C6479C /* MediaCompressTool.h */,
+				8BC0F82222F00D2600C6479C /* MediaCompressTool.m */,
+				8BC0F82322F00D2600C6479C /* UIImage+Utils.h */,
+				8BC0F82522F00D2600C6479C /* UIImage+Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8BC0F82822F00D2A00C6479C /* TextKit+ */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F82922F00D3900C6479C /* NSLayoutManager+Attachment.h */,
+				8BC0F83022F00D3900C6479C /* NSLayoutManager+Attachment.m */,
+				8BC0F82A22F00D3900C6479C /* NSTextStorage+ProcessEditing.h */,
+				8BC0F83122F00D3900C6479C /* NSTextStorage+ProcessEditing.m */,
+				8BC0F82E22F00D3900C6479C /* NSTextStorage+Html.h */,
+				8BC0F83222F00D3A00C6479C /* NSTextStorage+Html.m */,
+				8BC0F82C22F00D3900C6479C /* NSTextStorage+Utils.h */,
+				8BC0F82F22F00D3900C6479C /* NSTextStorage+Utils.m */,
+			);
+			path = "TextKit+";
+			sourceTree = "<group>";
+		};
+		8BC0F83822F00D4800C6479C /* UITextView+ */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F83C22F00D5500C6479C /* UITextView+Binding.h */,
+				8BC0F83D22F00D5500C6479C /* UITextView+Binding.m */,
+				8BC0F83B22F00D5500C6479C /* UITextView+RichText.h */,
+				8BC0F83E22F00D5500C6479C /* UITextView+RichText.m */,
+				8BC0F83922F00D5500C6479C /* UITextView+TextAttachmentUtils.h */,
+				8BC0F83A22F00D5500C6479C /* UITextView+TextAttachmentUtils.m */,
+			);
+			path = "UITextView+";
+			sourceTree = "<group>";
+		};
+		8BC0F84222F00D5F00C6479C /* TextAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F84322F00D6A00C6479C /* CopyTextAttachmentProtocol.h */,
+				8BC0F84522F00D6A00C6479C /* MediaTextAttachment.h */,
+				8BC0F84A22F00D6B00C6479C /* MediaTextAttachment.m */,
+				8BC0F84622F00D6A00C6479C /* AnyViewTextAttachment.h */,
+				8BC0F84922F00D6B00C6479C /* AnyViewTextAttachment.m */,
+				8BC0F84B22F00D6B00C6479C /* ImageTextAttachment.h */,
+				8BC0F84422F00D6A00C6479C /* ImageTextAttachment.m */,
+				8BC0F84722F00D6A00C6479C /* VideoTextAttachment.h */,
+				8BC0F84822F00D6B00C6479C /* VideoTextAttachment.m */,
+				8BC0F89822F0168700C6479C /* GifTextAttachment.h */,
+				8BC0F89722F0168700C6479C /* GifTextAttachment.m */,
+				8BC0F89B22F016C400C6479C /* AudioTextAttachment.h */,
+				8BC0F89A22F016C400C6479C /* AudioTextAttachment.m */,
+			);
+			path = TextAttachment;
+			sourceTree = "<group>";
+		};
+		8BC0F85022F00D7400C6479C /* Draft */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F85822F00D7E00C6479C /* DraftManager.h */,
+				8BC0F85122F00D7D00C6479C /* DraftManager.m */,
+				8BC0F85422F00D7E00C6479C /* DraftManager+Attachment.h */,
+				8BC0F85222F00D7D00C6479C /* DraftManager+Attachment.m */,
+				8BC0F85622F00D7E00C6479C /* DraftMetaDataModel.h */,
+				8BC0F85522F00D7E00C6479C /* DraftMetaDataModel.m */,
+				8BC0F85722F00D7E00C6479C /* NSTextStorage+Draft.h */,
+				8BC0F85922F00D7E00C6479C /* NSTextStorage+Draft.m */,
+				8BC0F85A22F00D7E00C6479C /* RichTextView+Draft.h */,
+				8BC0F85322F00D7D00C6479C /* RichTextView+Draft.m */,
+			);
+			path = Draft;
+			sourceTree = "<group>";
+		};
+		8BC0F86622F00DA000C6479C /* RichTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F86122F00D9A00C6479C /* RichTextView.h */,
+				8BC0F86222F00D9A00C6479C /* RichTextView.m */,
+				8BC0F86022F00D9A00C6479C /* RichTextView+TextAttachment.h */,
+				8BC0F86322F00D9A00C6479C /* RichTextView+TextAttachment.m */,
+			);
+			path = RichTextView;
+			sourceTree = "<group>";
+		};
+		8BC0F86922F00E8E00C6479C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F89E22F0179C00C6479C /* Define.h */,
+				8BC0F87722F0108300C6479C /* NSObject+Swizzle.h */,
+				8BC0F87622F0108300C6479C /* NSObject+Swizzle.m */,
+				8BC0F86C22F00EAA00C6479C /* UIViewController+XF.h */,
+				8BC0F86B22F00EA900C6479C /* UIViewController+XF.m */,
+				8BC0F86A22F00EA900C6479C /* UIViewController+Base.h */,
+				8BC0F86D22F00EAA00C6479C /* UIViewController+Base.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8BC0F89F22F01A0D00C6479C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F8AE22F01D1900C6479C /* RichTextInputAccessoryView.h */,
+				8BC0F8AD22F01D1900C6479C /* RichTextInputAccessoryView.m */,
+				8BC0F8A022F01A1700C6479C /* AudioAttachmentReusableView.h */,
+				8BC0F8A122F01A1700C6479C /* AudioAttachmentReusableView.m */,
+				8BC0F8A422F01A3700C6479C /* GifAttachmentReusableView.h */,
+				8BC0F8A322F01A3700C6479C /* GifAttachmentReusableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BC0F8A622F01A9B00C6479C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0F8A722F01AC200C6479C /* RichTextViewController.h */,
+				8BC0F8A822F01AC200C6479C /* RichTextViewController.m */,
+				8BC0F8AA22F01AD600C6479C /* DraftListViewController.h */,
+				8BC0F8AB22F01AD600C6479C /* DraftListViewController.m */,
+				8BC0F8B322F020FD00C6479C /* PostRichEditViewController.h */,
+				8BC0F8B422F020FD00C6479C /* PostRichEditViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEFFA6AAF4C66A8554CF4F1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8044B34563F0068ACD69AEC2 /* libPods-TTRichTextView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +411,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC0F80B22F0052C00C6479C /* Build configuration list for PBXNativeTarget "TTRichTextView" */;
 			buildPhases = (
+				537E8F3E35D9D80290F34192 /* [CP] Check Pods Manifest.lock */,
 				8BC0F7E622F0052800C6479C /* Sources */,
 				8BC0F7E722F0052800C6479C /* Frameworks */,
 				8BC0F7E822F0052800C6479C /* Resources */,
+				868162576CEBD4AE2FB0AF80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,9 +486,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC0F86822F00DB800C6479C /* XFRichTextTool.bundle in Resources */,
 				8BC0F7FA22F0052C00C6479C /* LaunchScreen.storyboard in Resources */,
 				8BC0F7F722F0052C00C6479C /* Assets.xcassets in Resources */,
 				8BC0F7F522F0052800C6479C /* Main.storyboard in Resources */,
+				8BC0F8BF22F02C8500C6479C /* niconiconi@2x.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,13 +503,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		537E8F3E35D9D80290F34192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTRichTextView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868162576CEBD4AE2FB0AF80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTRichTextView/Pods-TTRichTextView-resources.sh",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTRichTextView/Pods-TTRichTextView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BC0F7E622F0052800C6479C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC0F83722F00D3A00C6479C /* NSTextStorage+Html.m in Sources */,
+				8BC0F87822F0108300C6479C /* NSObject+Swizzle.m in Sources */,
+				8BC0F85D22F00D7E00C6479C /* RichTextView+Draft.m in Sources */,
+				8BC0F82622F00D2600C6479C /* MediaCompressTool.m in Sources */,
+				8BC0F82022F00D1300C6479C /* AttachmentGestureRecognizerDelegate.m in Sources */,
+				8BC0F84022F00D5500C6479C /* UITextView+Binding.m in Sources */,
+				8BC0F84122F00D5500C6479C /* UITextView+RichText.m in Sources */,
+				8BC0F89C22F016C400C6479C /* AudioTextAttachment.m in Sources */,
+				8BC0F84F22F00D6B00C6479C /* MediaTextAttachment.m in Sources */,
+				8BC0F8AF22F01D1A00C6479C /* RichTextInputAccessoryView.m in Sources */,
+				8BC0F86F22F00EAA00C6479C /* UIViewController+Base.m in Sources */,
+				8BC0F8AC22F01AD600C6479C /* DraftListViewController.m in Sources */,
+				8BC0F8A522F01A3700C6479C /* GifAttachmentReusableView.m in Sources */,
+				8BC0F85C22F00D7E00C6479C /* DraftManager+Attachment.m in Sources */,
 				8BC0F7F222F0052800C6479C /* ViewController.m in Sources */,
+				8BC0F81F22F00D1300C6479C /* TextAttachmentReusableView.m in Sources */,
+				8BC0F8A222F01A1700C6479C /* AudioAttachmentReusableView.m in Sources */,
+				8BC0F81E22F00D1300C6479C /* TextAttachmentsManager.m in Sources */,
+				8BC0F86522F00D9B00C6479C /* RichTextView+TextAttachment.m in Sources */,
 				8BC0F7FD22F0052C00C6479C /* main.m in Sources */,
+				8BC0F83422F00D3A00C6479C /* NSTextStorage+Utils.m in Sources */,
+				8BC0F84E22F00D6B00C6479C /* AnyViewTextAttachment.m in Sources */,
+				8BC0F8B522F020FD00C6479C /* PostRichEditViewController.m in Sources */,
+				8BC0F89922F0168800C6479C /* GifTextAttachment.m in Sources */,
+				8BC0F84C22F00D6B00C6479C /* ImageTextAttachment.m in Sources */,
+				8BC0F83622F00D3A00C6479C /* NSTextStorage+ProcessEditing.m in Sources */,
+				8BC0F86422F00D9B00C6479C /* RichTextView.m in Sources */,
+				8BC0F85B22F00D7E00C6479C /* DraftManager.m in Sources */,
+				8BC0F82722F00D2600C6479C /* UIImage+Utils.m in Sources */,
+				8BC0F86E22F00EAA00C6479C /* UIViewController+XF.m in Sources */,
+				8BC0F85F22F00D7E00C6479C /* NSTextStorage+Draft.m in Sources */,
+				8BC0F8A922F01AC200C6479C /* RichTextViewController.m in Sources */,
+				8BC0F84D22F00D6B00C6479C /* VideoTextAttachment.m in Sources */,
+				8BC0F83522F00D3A00C6479C /* NSLayoutManager+Attachment.m in Sources */,
+				8BC0F81D22F00D1300C6479C /* AttachmentLayoutManager.m in Sources */,
+				8BC0F83F22F00D5500C6479C /* UITextView+TextAttachmentUtils.m in Sources */,
+				8BC0F85E22F00D7E00C6479C /* DraftMetaDataModel.m in Sources */,
 				8BC0F7EF22F0052800C6479C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +748,7 @@
 		};
 		8BC0F80C22F0052C00C6479C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F15347596DA2D34D84ED8B /* Pods-TTRichTextView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +766,7 @@
 		};
 		8BC0F80D22F0052C00C6479C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860784015193DA32BBAAF1FA /* Pods-TTRichTextView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

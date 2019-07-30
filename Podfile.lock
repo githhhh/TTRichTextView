@@ -1,0 +1,42 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - Masonry (1.1.0)
+  - MJExtension (3.0.17)
+  - TZImagePickerController (3.2.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - LKDBHelper
+  - Masonry
+  - MJExtension
+  - TZImagePickerController
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - LKDBHelper
+    - Masonry
+    - MJExtension
+    - TZImagePickerController
+    - YYKit
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  TZImagePickerController: bf4c57b98d8707fce41ea6be872414a71c7a8c9d
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 0736eb3ea3506927a66b20c7d268885bcfc368e8
+
+COCOAPODS: 1.6.1
